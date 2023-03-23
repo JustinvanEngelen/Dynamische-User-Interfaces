@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+
+#button1{
+    background-color: red;
+    width: 150px;
+    margin-bottom: 5%;
+    height: 150px;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+#button2{
+    background-color: rgb(4, 252, 4);
+    width: 150px;
+    margin-bottom: 5%;
+    height: 150px;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
