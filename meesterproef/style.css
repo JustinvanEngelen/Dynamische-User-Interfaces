@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap%27');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --mainwidth: 640px;
+    --lightcolor: white;
+    --darkcolor: gray;
+}
+
+body{
+    background-color: #1f7da2;
+}
+h1{
+    width: var(--mainwidth);
+    text-align: center;
+    margin: 20px auto;
+    color: var(--darkcolor)
+}
+#container {
+
+    width: var(--mainwidth);
+    height: 440px;
+    background-color: var(--lightcolor);
+    margin: 10px auto 0;
+}
+
+footer {
+    width: var(--mainwidth);
+    text-align: center;
+    margin: 0 auto 20px;
+    height: 30px;
+    background-color: var(--darkcolor);
+    font-weight: bold;
+    color: var(--lightcolor);
+    padding-top: 10px;
+}
+button{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    border: none;
+    border-radius: 0px;
+    background-color: #00BB00;
+    padding: 25px;
+    margin: 25px;
+    cursor: pointer;
+    translate: scale(1);
+
+}
+button:hover, button:focus
+{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    background-color: #00DD00;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px;
+    cursor: pointer;
+
+}
+#submit{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: -50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px; 
+
+}
+#winner{
+    font-size: 50px;
+}
+#draw{
+    font-size: 30px;
+}
+#title
+{
+    color: #FFF;
+}

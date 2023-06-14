@@ -1,0 +1,17 @@
+.container {
+    width: 541px;
+    height: 700px;
+    background-color: gray;
+    border: 15px solid gray;
+    
+}
+
+.container button {
+    margin-top: 10px;
+    margin-right: 2px;
+    background-color: green;
+    width: 105px;
+    height: 105px;
+    cursor: pointer;
+    padding: 30px;
+}
